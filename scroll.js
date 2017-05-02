@@ -10,12 +10,10 @@ function click(e) {
 function stop(){
 	chrome.browserAction.setIcon({path:"icon.png"});
 	chrome.tabs.executeScript(null,
-	{code:"clearTimeout(t);console.log('Stopped');"});
+	{code:"console.log('Stopped');location.reload();"});
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-	stop();
 	document.getElementById('hi').addEventListener('click', click);
 	document.getElementById('stop').addEventListener('click', stop);
-	
 });
