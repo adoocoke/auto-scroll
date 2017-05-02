@@ -1,0 +1,32 @@
+/.settings
+/RUNNING_PID
+public
+*.iml
+db_development.conf
+conf/dev.conf
+# source and project #
+log
+logs
+*.log
+target
+.idea
+.idea_modules
+.idea*
+.classpath
+.project
+out
+.*pyc
+
+# OS generated files #
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+temp
+Temp
+dump.rdb
