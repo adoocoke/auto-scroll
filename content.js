@@ -3,7 +3,7 @@ function scroll(speed) {
         $(this).animate({scrollTop: 0}, speed);
     });
 }
-speed = 10000;
+speed = 20000;
 scroll(speed)
 setInterval(function () {
     scroll(speed)
